@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
 import os
 
-path = os.getcwd() + "/../Dataset/train/"
+path = os.getcwd() + "/images/Capon/"
 img_path =  path + "img920.jpg"
 print(img_path)
 img = cv2.imread(img_path)

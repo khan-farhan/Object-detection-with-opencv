@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
 import os
 
-path = os.getcwd() + "/../Dataset/train/"
+path = os.getcwd() + "/images/Capoff/"
 img_path =  path + "img973.jpg"
 
 img = cv2.imread(img_path)
@@ -16,4 +16,4 @@ cv2.imshow('gray',thresh)
 cv2.waitKey(0)
 #plt.hist(imgray.ravel(),bins = 1000)
 
-#plt.show()
+#plt.show()image = np.array([[1, 0, 0, 1], [0, 0, 0,0], [0, 0, 0,0], [1, 0, 0,1]])
